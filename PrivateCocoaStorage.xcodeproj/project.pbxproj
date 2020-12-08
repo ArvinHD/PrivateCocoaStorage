@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BD95F41AE190C2738FEA8B1 /* Pods_PrivateCocoaStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE39C352A11D84C8E72CFF9 /* Pods_PrivateCocoaStorage.framework */; };
+		C95263A2257FA7A50002427D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95263A1257FA7A50002427D /* AppDelegate.m */; };
+		C95263A5257FA7A50002427D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95263A4257FA7A50002427D /* SceneDelegate.m */; };
+		C95263A8257FA7A50002427D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95263A7257FA7A50002427D /* ViewController.m */; };
+		C95263AB257FA7A50002427D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95263A9257FA7A50002427D /* Main.storyboard */; };
+		C95263AD257FA7A90002427D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95263AC257FA7A90002427D /* Assets.xcassets */; };
+		C95263B0257FA7A90002427D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95263AE257FA7A90002427D /* LaunchScreen.storyboard */; };
+		C95263B3257FA7A90002427D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C95263B2257FA7A90002427D /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18506542B73698CBC82FFFB0 /* Pods-PrivateCocoaStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateCocoaStorage.debug.xcconfig"; path = "Target Support Files/Pods-PrivateCocoaStorage/Pods-PrivateCocoaStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE39C352A11D84C8E72CFF9 /* Pods_PrivateCocoaStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateCocoaStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C952639D257FA7A50002427D /* PrivateCocoaStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateCocoaStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95263A0257FA7A50002427D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C95263A1257FA7A50002427D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C95263A3257FA7A50002427D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C95263A4257FA7A50002427D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C95263A6257FA7A50002427D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C95263A7257FA7A50002427D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C95263AA257FA7A50002427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C95263AC257FA7A90002427D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C95263AF257FA7A90002427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C95263B1257FA7A90002427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95263B2257FA7A90002427D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2CB2BDF14CED6CA0805144E /* Pods-PrivateCocoaStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateCocoaStorage.release.xcconfig"; path = "Target Support Files/Pods-PrivateCocoaStorage/Pods-PrivateCocoaStorage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C952639A257FA7A50002427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD95F41AE190C2738FEA8B1 /* Pods_PrivateCocoaStorage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112554ABDA45540AB6E4C406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE39C352A11D84C8E72CFF9 /* Pods_PrivateCocoaStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15DDC9DE5C6B8271EC019C7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18506542B73698CBC82FFFB0 /* Pods-PrivateCocoaStorage.debug.xcconfig */,
+				E2CB2BDF14CED6CA0805144E /* Pods-PrivateCocoaStorage.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9526394257FA7A50002427D = {
+			isa = PBXGroup;
+			children = (
+				C952639F257FA7A50002427D /* PrivateCocoaStorage */,
+				C952639E257FA7A50002427D /* Products */,
+				15DDC9DE5C6B8271EC019C7E /* Pods */,
+				112554ABDA45540AB6E4C406 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C952639E257FA7A50002427D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C952639D257FA7A50002427D /* PrivateCocoaStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C952639F257FA7A50002427D /* PrivateCocoaStorage */ = {
+			isa = PBXGroup;
+			children = (
+				C95263A0257FA7A50002427D /* AppDelegate.h */,
+				C95263A1257FA7A50002427D /* AppDelegate.m */,
+				C95263A3257FA7A50002427D /* SceneDelegate.h */,
+				C95263A4257FA7A50002427D /* SceneDelegate.m */,
+				C95263A6257FA7A50002427D /* ViewController.h */,
+				C95263A7257FA7A50002427D /* ViewController.m */,
+				C95263A9257FA7A50002427D /* Main.storyboard */,
+				C95263AC257FA7A90002427D /* Assets.xcassets */,
+				C95263AE257FA7A90002427D /* LaunchScreen.storyboard */,
+				C95263B1257FA7A90002427D /* Info.plist */,
+				C95263B2257FA7A90002427D /* main.m */,
+			);
+			path = PrivateCocoaStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C952639C257FA7A50002427D /* PrivateCocoaStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95263B6257FA7A90002427D /* Build configuration list for PBXNativeTarget "PrivateCocoaStorage" */;
+			buildPhases = (
+				D998AAFA07E52801642ADCD0 /* [CP] Check Pods Manifest.lock */,
+				C9526399257FA7A50002427D /* Sources */,
+				C952639A257FA7A50002427D /* Frameworks */,
+				C952639B257FA7A50002427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivateCocoaStorage;
+			productName = PrivateCocoaStorage;
+			productReference = C952639D257FA7A50002427D /* PrivateCocoaStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9526395257FA7A50002427D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C952639C257FA7A50002427D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = C9526398257FA7A50002427D /* Build configuration list for PBXProject "PrivateCocoaStorage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9526394257FA7A50002427D;
+			productRefGroup = C952639E257FA7A50002427D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C952639C257FA7A50002427D /* PrivateCocoaStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C952639B257FA7A50002427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95263B0257FA7A90002427D /* LaunchScreen.storyboard in Resources */,
+				C95263AD257FA7A90002427D /* Assets.xcassets in Resources */,
+				C95263AB257FA7A50002427D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D998AAFA07E52801642ADCD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrivateCocoaStorage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9526399257FA7A50002427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95263A8257FA7A50002427D /* ViewController.m in Sources */,
+				C95263A2257FA7A50002427D /* AppDelegate.m in Sources */,
+				C95263B3257FA7A90002427D /* main.m in Sources */,
+				C95263A5257FA7A50002427D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C95263A9257FA7A50002427D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95263AA257FA7A50002427D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C95263AE257FA7A90002427D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95263AF257FA7A90002427D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95263B4257FA7A90002427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C95263B5257FA7A90002427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95263B7257FA7A90002427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18506542B73698CBC82FFFB0 /* Pods-PrivateCocoaStorage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU8R4YV39P;
+				INFOPLIST_FILE = PrivateCocoaStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.PrivateCocoaStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95263B8257FA7A90002427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2CB2BDF14CED6CA0805144E /* Pods-PrivateCocoaStorage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU8R4YV39P;
+				INFOPLIST_FILE = PrivateCocoaStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.PrivateCocoaStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9526398257FA7A50002427D /* Build configuration list for PBXProject "PrivateCocoaStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95263B4257FA7A90002427D /* Debug */,
+				C95263B5257FA7A90002427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95263B6257FA7A90002427D /* Build configuration list for PBXNativeTarget "PrivateCocoaStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95263B7257FA7A90002427D /* Debug */,
+				C95263B8257FA7A90002427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9526395257FA7A50002427D /* Project object */;
+}
